@@ -1,3 +1,9 @@
+'''
+name: Emma Verdugo
+lab:@2pm
+
+'''
+
 def in_order(nums):
     # Type your code here.
     
