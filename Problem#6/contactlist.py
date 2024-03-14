@@ -8,10 +8,10 @@ def process_user_contacts(user_input):
     user_contacts = {} 
     
     user_input = user_input.replace(","," ")
-    print(user_input)
+    #print(user_input)
     
     tokens = user_input.split(" ")
-    print(tokens)
+    #print(tokens)
     
     # Put word pairs into a dictionary
     for i in range(0, len(tokens),2):

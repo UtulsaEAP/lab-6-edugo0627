@@ -10,12 +10,14 @@ def process_and_print(input_string):
     # Convert strings to integers and filter out negative values
     input_data = [int(x) for x in nums]
     for x in input_data:
-      if x > 0:
+      if x >= 0:
         input_data.remove(x)
     # Sort integers in reverse order
     input_data.sort(reverse=True)
     # Print sorted integers
-    print( input_data )
+    for data in input_data:
+      print(str(data)+" ",end="")
+    #print( input_data )
     
 
 if __name__ == "__main__":

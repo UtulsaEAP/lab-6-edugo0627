@@ -10,10 +10,11 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     total += base_wash
     if service_choice1 in services:
         total += services[service_choice1]
-    print("{} - ${}".format(service_choice1, services[service_choice1]))
+        print("{} - ${}".format(service_choice1, services[service_choice1]))
     if service_choice2 in services:
         total += services[service_choice2]
-    print("{} - ${}".format(service_choice2,services[service_choice2]))
+        print("{} - ${}".format(service_choice2,services[service_choice2]))
+    print("-----")
     print("Total price: ${}".format(total))
 
     
